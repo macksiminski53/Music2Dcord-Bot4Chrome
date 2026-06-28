@@ -1,10 +1,16 @@
 {
   "name": "music2dcord-bot4chrome",
   "version": "1.0.0",
-  "description": "Discord status updater for Chrome — shows what you're listening to in your browser",
+  "description": "Discord status updater for Chrome",
+  "main": "index.js",
   "scripts": {
-    "start": "node server/index.js",
-    "install-server": "cd server && npm install"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.7.0",
+    "sql.js": "^1.10.3"
   },
   "engines": {
     "node": ">=18"
