@@ -1,5 +1,5 @@
 // extension/popup.js
-const SERVER_URL = 'https://your-app.up.railway.app'; // TODO: replace after Railway deploy
+const SERVER_URL = 'https://music2dcord-bot4chrome-production.up.railway.app';
 
 const elLoading = document.getElementById('state-loading');
 const elDisconnected = document.getElementById('state-disconnected');

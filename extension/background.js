@@ -2,7 +2,7 @@
 // Service worker — manages connection state, receives track updates
 // from content scripts, and forwards them to the Music2Dcord server.
 
-const SERVER_URL = 'https://your-app.up.railway.app'; // TODO: replace after Railway deploy
+const SERVER_URL = 'https://music2dcord-bot4chrome-production.up.railway.app';
 const EXTENSION_SECRET = 'changeme'; // TODO: match EXTENSION_SECRET env var on Railway
 const UPDATE_INTERVAL_MS = 15000; // how often to push to server even if track hasn't changed
 
