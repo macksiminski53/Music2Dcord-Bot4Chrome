@@ -1,7 +1,2 @@
-[build]
-builder = "NIXPACKS"
-
-[deploy]
-startCommand = "cd server && npm install && node index.js"
-restartPolicyType = "ON_FAILURE"
-restartPolicyMaxRetries = 3
+[deploy] 
+startCommand = "node index.js" 
